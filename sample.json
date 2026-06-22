@@ -1,0 +1,150 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-flash-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "小学生5年级，手抄报, A3纸，主题：“汉字的演变”.    文字量适中。帮我生成提示词。",
+      "role": "user",
+      "tokenCount": 33,
+      "createTime": "2026-03-28T06:13:34.550Z"
+    }, {
+      "text": "**Generating Educational Prompts**\n\nI\u0027m focused on creating prompts for an AI image generator, aimed at illustrating the evolution of Chinese characters. The source material is a hand-drawn A3 poster by a 5th-grade student, so my tone should be educational. I\u0027m aiming for a moderate text volume to complement the visuals. The goal is to visually represent the evolution of Chinese characters, starting with the source material, a 5th grade poster, and generate prompts appropriate for AI image generators.\n\n\n**Refining Visual Style Choices**\n\nI\u0027m now honing in on visual styles: Traditional, Creative/Cartoon, and Diagrammatic. Considering how these will best represent the character evolution timeline. I\u0027m leaning towards a balance of historical accuracy and child-friendly aesthetics. I\u0027m focusing on blending ink, scrolls, and modern layout techniques to visually represent the evolution stages from Oracle Bone script to Regular/Running/Cursive script. Also, I am thinking of adding some interactive fun facts.\n\n\n",
+      "role": "model",
+      "tokenCount": 503,
+      "isThought": true,
+      "parts": [{
+        "text": "**Generating Educational Prompts**\n\nI\u0027m focused on creating prompts for an AI image generator, aimed at illustrating the evolution of Chinese characters. The source material is a hand-drawn A3 poster by a 5th-grade student, so my tone should be educational. I\u0027m aiming for a moderate text volume to complement the visuals. The goal is to visually represent the evolution of Chinese characters, starting with the source material, a 5th grade poster, and generate prompts appropriate for AI image generators.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining Visual Style Choices**\n\nI\u0027m now honing in on visual styles: Traditional, Creative/Cartoon, and Diagrammatic. Considering how these will best represent the character evolution timeline. I\u0027m leaning towards a balance of historical accuracy and child-friendly aesthetics. I\u0027m focusing on blending ink, scrolls, and modern layout techniques to visually represent the evolution stages from Oracle Bone script to Regular/Running/Cursive script. Also, I am thinking of adding some interactive fun facts.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-03-28T06:13:34.550Z"
+    }, {
+      "text": "这份针对小学五年级、A3纸张、主题为“汉字的演变”的手抄报设计，我为你准备了**生成图片的AI提示词**以及**文字内容大纲**。\n\n你可以根据需要选择直接用AI生成参考图，或者按照文字建议进行手绘。\n\n---\n\n### 第一部分：AI绘画提示词（用于生成手抄报模版或插图）\n\n如果你使用 Midjourney, Stable Diffusion 或 DALL-E 3，可以尝试以下提示词：\n\n**提示词（中英文对照）：**\n\n\u003e **提示词：** \n\u003e 一张为5年级小学生设计的手抄报模板，主题是“汉字的演变”。A3纸比例，横向布局。背景包含淡淡的中国风云纹和宣纸质感。布局包括三个主要文字框。插图包含：古代的龟甲（甲骨文）、青铜鼎（金文）、竹简（小篆）、毛笔和墨砚。色彩清新、明亮，不要太复杂，适合小学生模仿。文字框边缘有简单的中国传统边框。\n\u003e **Prompt:** \n\u003e A hand-drawn poster template for a 5th-grade student, theme \"Evolution of Chinese Characters\", A3 paper horizontal layout. Background with faint Chinese auspicious clouds and rice paper texture. The layout includes three main text boxes. Illustrations include: ancient tortoise shells (Oracle Bone Script), bronze tripod (Jinwen), bamboo slips (Seal Script), writing brush, and inkstone. Fresh and bright colors, simple and clean style suitable for children to imitate. Borders of text boxes have simple traditional Chinese patterns. High quality, 8k. --ar 3:2\n\n---\n\n### 第二部分：手抄报内容规划（文字量适中）\n\n为了方便排版，建议将A3纸分为**四个板块**：\n\n#### 1. 报头（标题）\n*   **大标题：** 《汉字之魂：从甲骨到楷书》或《汉字的奇妙演变》\n*   **设计建议：** 标题用艺术字写在上方中央，左右可以画两个可爱的小书童。\n\n#### 2. 板块一：汉字的起源（传说）\n*   **小标题：** 仓颉造字\n*   **内容：** 传说古代象形文字是由仓颉创造的。他观察鸟兽的足迹，受到启发，创造了最早的文字。汉字是世界上最古老的文字之一，已有三千多年的历史。\n\n#### 3. 板块二：演变五部曲（核心内容）\n*   **小标题：** 演变的足迹\n*   **内容（精简版）：**\n    *   **甲骨文：** 刻在龟甲兽骨上，像简笔画。\n    *   **金文：** 铸在青铜器上，线条变粗。\n    *   **小篆：** 秦朝统一文字，字形长方，非常漂亮。\n    *   **隶书：** 汉代流行，把圆转的线条变方折，是汉字的分水岭。\n    *   **楷书：** 魏晋至今，字形方正，是我们现在写的标准字体。\n\n#### 4. 板块三：汉字小趣闻/魅力\n*   **小标题：** 趣味汉字\n*   **内容：** \n    *   **猜猜看：** “休”字——一个人靠在树木（木）旁，就是休息。\n    *   **结语：** 每一个汉字都是一幅画，一段历史。学习汉字，就是在和古人对话。\n\n---\n\n### 第三部分：视觉设计建议（给学生的Tips）\n\n1.  **色彩搭配：** \n    *   主色调建议用**中国红**、**水墨黑**和**古色古香的淡黄色**。\n    *   重点文字可以用红色圈起来。\n2.  **插图元素：**\n    *   画一个简单的“马”字演变图（画一个马头 -\u003e 甲骨文马 -\u003e 楷书马），最能直观展示演变。\n    *   角落可以画一枝梅花或几片竹叶，增加美感。\n3.  **留白：**\n    *   不要把字写得太满，框与框之间留出0.5厘米的空隙，会让画面更整洁。\n\n**需要我帮你把某一部分内容写得更详细或者更简单一点吗？**",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 996,
+      "parts": [{
+        "text": "这份针对小学五年级、A3纸张、主题为“汉字的演变”的手抄报"
+      }, {
+        "text": "设计，我为你准备了**生成图片的AI提示词**以及**文字内容大纲**。\n\n你可以根据需要"
+      }, {
+        "text": "选择直接用AI生成参考图，或者按照文字建议进行手绘。\n\n---\n\n### 第一部分：AI"
+      }, {
+        "text": "绘画提示词（用于生成手抄报模版或插图）\n\n如果你使用 Midjourney, Stable Diffusion 或 DALL"
+      }, {
+        "text": "-E 3，可以尝试以下提示词：\n\n**提示词（中英文对照）：**\n\n\u003e **提示"
+      }, {
+        "text": "词：** \n\u003e 一张为5年级小学生设计的手抄报模板，主题是“汉字的演变"
+      }, {
+        "text": "”。A3纸比例，横向布局。背景包含淡淡的中国风云纹和宣纸质感。布局"
+      }, {
+        "text": "包括三个主要文字框。插图包含：古代的龟甲（甲骨文）、青铜鼎（金文）、"
+      }, {
+        "text": "竹简（小篆）、毛笔和墨砚。色彩清新、明亮，不要太复杂，适合小学生模仿"
+      }, {
+        "text": "。文字框边缘有简单的中国传统边框。\n\u003e **Prompt:** \n\u003e A hand-drawn poster template"
+      }, {
+        "text": " for a 5th-grade student, theme \"Evolution of Chinese Characters\", A3 paper horizontal layout. Background with"
+      }, {
+        "text": " faint Chinese auspicious clouds and rice paper texture. The layout includes three main text boxes. Illustrations include: ancient tortoise shells (Oracle Bone Script"
+      }, {
+        "text": "), bronze tripod (Jinwen), bamboo slips (Seal Script), writing brush, and inkstone. Fresh and bright colors,"
+      }, {
+        "text": " simple and clean style suitable for children to imitate. Borders of text boxes have simple traditional Chinese patterns. High quality, 8k"
+      }, {
+        "text": ". --ar 3:2\n\n---\n\n### 第二部分：手抄报内容规划（文字量适中）\n\n为了"
+      }, {
+        "text": "方便排版，建议将A3纸分为**四个板块**：\n\n#### 1. 报头（标题）"
+      }, {
+        "text": "\n*   **大标题：** 《汉字之魂：从甲骨到楷书》或《汉字的"
+      }, {
+        "text": "奇妙演变》\n*   **设计建议：** 标题用艺术字写在上方中央，左右可以"
+      }, {
+        "text": "画两个可爱的小书童。\n\n#### 2. 板块一：汉字的起源（传说）\n*   "
+      }, {
+        "text": "**小标题：** 仓颉造字\n*   **内容：** 传说古代象形文字是由"
+      }, {
+        "text": "仓颉创造的。他观察鸟兽的足迹，受到启发，创造了最早的文字。汉字是"
+      }, {
+        "text": "世界上最古老的文字之一，已有三千多年的历史。\n\n#### 3. 板块二：演变五"
+      }, {
+        "text": "部曲（核心内容）\n*   **小标题：** 演变的足迹\n*   **内容（"
+      }, {
+        "text": "精简版）：**\n    *   **甲骨文：** 刻在龟甲兽骨上，像简"
+      }, {
+        "text": "笔画。\n    *   **金文：** 铸在青铜器上，线条变粗。\n    *"
+      }, {
+        "text": "   **小篆：** 秦朝统一文字，字形长方，非常漂亮。\n    *   **隶书"
+      }, {
+        "text": "：** 汉代流行，把圆转的线条变方折，是汉字的分水岭。\n"
+      }, {
+        "text": "    *   **楷书：** 魏晋至今，字形方正，是我们现在写的标准字体。\n\n#### "
+      }, {
+        "text": "4. 板块三：汉字小趣闻/魅力\n*   **小标题：** 趣味汉"
+      }, {
+        "text": "字\n*   **内容：** \n    *   **猜猜看：** “休”字——"
+      }, {
+        "text": "一个人靠在树木（木）旁，就是休息。\n    *   **结语：** 每一个汉字都是"
+      }, {
+        "text": "一幅画，一段历史。学习汉字，就是在和古人对话。\n\n---\n\n### 第三部分：视觉"
+      }, {
+        "text": "设计建议（给学生的Tips）\n\n1.  **色彩搭配：** \n    *   主色调建议用"
+      }, {
+        "text": "**中国红**、**水墨黑**和**古色古香的淡黄色**。\n    *   重点"
+      }, {
+        "text": "文字可以用红色圈起来。\n2.  **插图元素：**\n    *   画一个简单的“马"
+      }, {
+        "text": "”字演变图（画一个马头 -\u003e 甲骨文马 -\u003e 楷书马），最能直"
+      }, {
+        "text": "观展示演变。\n    *   角落可以画一枝梅花或几片竹叶，增加美"
+      }, {
+        "text": "感。\n3.  **留白：**\n    *   不要把字写得太满，框"
+      }, {
+        "text": "与框之间留出0.5厘米的空隙，会让画面更整洁。\n\n**需要我帮你把某"
+      }, {
+        "text": "一部分内容写得更详细或者更简单一点吗？**"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-28T06:13:39.273Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}
